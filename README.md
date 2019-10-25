@@ -1,11 +1,4 @@
-.88b  d88. d8888b.   ooooo db   db  .d8b.   .o88b. db   dD
-88'YbdP`88 88  `8D  8P~~~~ 88   88 d8' `8b d8P  Y8 88 ,8P
-88  88  88 88   88 dP      88ooo88 88ooo88 8P      88,8P  
-88  88  88 88   88 V8888b. 88~~~88 88~~~88 8b      88`8b  
-88  88  88 88  .8D     `8D 88   88 88   88 Y8b  d8 88 `88.
-YP  YP  YP Y8888D' 88oobY' YP   YP YP   YP  `Y88P' YP   YD
-
-***MD5HACK***
+# MD5HACK
 
 # Описание
 
