@@ -22,7 +22,7 @@ def Show(): # для показа логотима
     print("88  88  88 88   88 V8888b. 88~~~88 88~~~88 8b      88`8b  ")
     print("88  88  88 88  .8D     `8D 88   88 88   88 Y8b  d8 88 `88. ")
     print("YP  YP  YP Y8888D' 88oobY' YP   YP YP   YP  `Y88P' YP   YD \n")
-    print("v1.1 by damiralmaev (Gladi)\n"   + bcolors.ENDC)
+    print("v1.0 by damiralmaev\n"   + bcolors.ENDC)
 
 def MD5HECH(): # MD5 хешировать
     answer = input("Видете хеш: ")
@@ -58,9 +58,8 @@ def MD5Hack(): # Взлом md5
 
 def About(): # для показа о программе
     print(bcolors.WARNING + "Автор: Дамир Алмаев Маратович")
-    print("(Gladi)")
     print("мой github - https://github.com/damiralmaev")
-    print("Версия программы - 1.1")
+    print("Версия программы - 1.0")
     print("Язык программирования - Python" + bcolors.ENDC)
 
 class bcolors: # для цветов
@@ -79,17 +78,17 @@ class bcolors: # для цветов
         self.FAIL = ''
         self.ENDC = ''
 
-def Setting():
-	print("123")
-	#pass
+def  Setting():
+	answer = input("Вы подтверждаете это действие?")
+	if answer == "ДA".islower:
+		print(bcolors.OKGREEN + "Это действие принято!" + bcolors.ENDC)
 
 # сама работа
 
 Show()
 
 while whileanswer == False: # почему-то я сделал наоборот
-
-    print(bcolors.WARNING + 'Дополнительно: Настройки (4)' + bcolors.ENDC)
+	print("Дополнительно: Настройки (4)")
     answer = input('Что сделать?\nMD5 хешировать (1), MD5 Attack (2) или "О программе"(3): ')
 
     # проверка
@@ -100,6 +99,8 @@ while whileanswer == False: # почему-то я сделал наоборот
         MD5Hack()
     elif answer == "3":
         About()
+    elif answer == "3":
+    	Setting()
     else:
         print("Ошибка!")
 
